@@ -1,0 +1,110 @@
+﻿@model Dominio.SBE_ST_BannerRotativo
+
+@{
+    var nome = "Banner Rotativo";
+    var controller = "BannerRotativo";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    @Html.HiddenFor(model => model.Id)
+
+
+    <div class="col-lg-12">
+        <h1 class="page-header">@nome</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Editar @nome
+                </div>
+                <div class="panel-body">
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Titulo)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextBoxFor(model => model.Titulo)
+                        @Html.ValidationMessageFor(model => model.Titulo)
+                    </div>
+
+                    
+
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Link)
+                        @Html.ValidationMessageFor(model => model.Link)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Link)
+                    </div>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.SubTitulo)
+                    </div>
+                    <div class="editor-field">
+                        @Html.TextAreaFor(model => model.SubTitulo)
+                        @Html.ValidationMessageFor(model => model.SubTitulo)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.SubTitulo)
+                    </div>
+
+                    <div>
+                        <label>Trocar Imagem</label>
+                    </div>
+                    <div>
+                        <label>@Html.RadioButton("Trocar", "Sim", new { id = "Sim" }) Sim</label>
+                        <label>@Html.RadioButton("Trocar", "Não", true, new { id = "Nao" }) Não</label>
+                    </div>
+
+
+                    <div class="editor-field">
+                        <input type="file" name="file" id="file" />
+                        @Html.HiddenFor(model => model.Imagem)<br />
+                        @Html.ValidationMessageFor(model => model.Imagem)
+                    </div>
+
+                </div>
+                <div class="panel-footer">
+                    <button type="button" onclick="postUpload('@controller/Edit', '@controller/Index');" class="btn btn-success">Salvar</button>
+                    <button type="button" class="btn btn-info" onclick="Open('@controller/Index');">Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+<script>
+
+    $(document).ready(function () {
+        $('#file').prop('disabled', true);
+    });
+
+    $('#Sim').click(function () {
+        $('#file').prop('disabled', !$('#Sim').is(':checked'));
+    });
+
+    $('#Nao').click(function () {
+        $('#file').prop('disabled', $('#Nao').is(':checked'));
+    });
+
+    function postUpload(post, redirect) {
+        if ($("form").valid()) {
+            if ($('#Sim').is(':checked'))
+                uploadfile(post, redirect, '@controller/UploadArquivo', 'Imagem');
+            else{
+                OpenPost(post, redirect);
+            }
+        }
+    }
+
+</script>
+
+@Scripts.Render("~/bundles/jqueryval")
+
+

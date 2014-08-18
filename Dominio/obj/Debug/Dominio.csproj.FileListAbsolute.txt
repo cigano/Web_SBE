@@ -1,0 +1,5 @@
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\bin\Debug\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\bin\Debug\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\obj\Debug\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\obj\Debug\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache

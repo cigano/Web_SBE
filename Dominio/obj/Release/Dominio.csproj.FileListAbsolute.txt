@@ -1,0 +1,4 @@
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\bin\Release\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\bin\Release\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\obj\Release\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Dominio\obj\Release\Dominio.pdb

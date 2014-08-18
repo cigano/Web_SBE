@@ -1,0 +1,118 @@
+﻿@model Dominio.SBE_ST_Usuario
+
+@{
+    var nome = "Usuário";
+    var controller = "Usuario";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+
+    <div class="col-lg-12">
+        <h1 class="page-header">@nome</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-10">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Novo @nome
+                </div>
+                <div class="panel-body">
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Nome)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Nome)
+                        @Html.ValidationMessageFor(model => model.Nome)
+                    </div>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Login)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Login)
+                        @Html.ValidationMessageFor(model => model.Login)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Senha)
+                    </div>
+                    <div class="editor-field">
+                        @Html.PasswordFor(model => model.Senha)
+                        @Html.ValidationMessageFor(model => model.Senha)
+                    </div>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.BannerRotativo)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.BannerRotativo)
+                    </div>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.CorpoDocente)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.CorpoDocente)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Curso)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Curso)
+                    </div>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Livro)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Livro)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Parceiro)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Parceiro)
+                    </div>
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.VideoCurso)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.VideoCurso)
+                    </div>
+
+
+
+
+
+                </div>
+
+                <div class="panel-footer">
+                    <button type="button" onclick="OpenPost('@controller/Create', '@controller/Index');" class="btn btn-success">Salvar</button>
+                    <button type="button" class="btn btn-info" onclick="Open('@controller/Index');">Voltar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    function postUpload(post, redirect) {
+        if ($("form").valid())
+            uploadfile(post, redirect, '@controller/UploadArquivo', 'Logo');
+    }
+</script>
+
+
+@Scripts.Render("~/bundles/jqueryval")

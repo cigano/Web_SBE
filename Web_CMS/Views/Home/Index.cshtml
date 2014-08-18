@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CMS IPUPO SITE</title>
+
+    @Styles.Render("~/Content/CMS/css")
+
+    @Scripts.Render("~/Content/CMS/js")
+
+    <script src="~/Content/Cms/js/bootstrap.min.js"></script>
+
+    <script>
+        function OpenPost(url, redirect) {
+
+            if ($("form").valid()) {
+
+                var form = $("form").serialize();
+                Carregar();
+                url = '@Url.Content("~/")' + url;
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form,
+                    success: function (response) {
+                        Open(redirect);
+                    },
+                    error: function () {
+                        alert("Ocorreu um erro!");
+                        $('#loader').remove();
+                    }
+                });
+            }
+        }
+
+        function Open(url, redirect) {
+            Carregar();
+            url = '@Url.Content("~/")' + url;
+
+            $.ajax({
+                url: url,
+                type: 'GET',
+                success: function (response) {
+                    if (redirect)
+                        Open(redirect);
+                    $('#Conteudo').html(response);
+                    $('#loader').remove();
+                },
+                error: function () {
+                    alert('Ocorreu um erro!');
+                    $('#loader').remove();
+                }
+            });
+
+
+        }
+
+        function Carregar() {
+            $('#Conteudo').append('<div id="loader"></div>');
+        }
+
+
+        function uploadfile(post, redirect, urlUpload, campoNome, campoFile, campoNome2, campoFile2) {
+            if (!campoFile)
+                campoFile = "file";
+            var img = $("#" + campoFile).val();
+            if (img) {
+                var file = document.getElementById(campoFile).files[0];
+                var formData = new FormData();
+                formData.append(file.name, file);
+                var xhr = new XMLHttpRequest();
+                var url = urlUpload;
+                url = '@Url.Content("~/")' + url;
+                xhr.open('POST', url, true);
+                Carregar();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var dados = JSON.parse(xhr.responseText);
+                        if (dados.Nome != "") {
+                            $('#' + campoNome).val(dados.Nome);
+                            if (campoNome2)
+                                uploadfile(post, redirect, urlUpload, campoNome2, campoFile2);
+                            else
+                                OpenPost(post, redirect);
+                        } else {
+                            alert("Ocorreu um erro no upload da imagem.");
+                            $('#loader').remove();
+                        }
+                    }
+                }
+                xhr.send(formData);
+            }
+        }
+
+
+
+    </script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">@ViewData["Nome"]</a>
+            </div>
+            <div class="navbar-default navbar-static-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a onclick="Open('BannerRotativo/Index');" href="javascript:void(null);"><i class="fa fa-picture-o fa-fw"></i> Banner Rotativo</a>
+                        </li>
+                        <li>
+                            <a onclick="Open('CorpoDocente/Index');" href="javascript:void(null);"><i class="fa fa-users fa-fw"></i> Corpo Docente</a>
+                        </li>
+                        <li>
+                            <a onclick="Open('Parceiro/Index');" href="javascript:void(null);"><i class="fa fa-briefcase fa-fw"></i> Parceiro</a>
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-bars fa-fw"></i> Curso<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a onclick="Open('Curso/Index?categoria=Pós-Graduação');" href="javascript:void(null);">
+                                        Pós-Graduação
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a onclick="Open('Curso/Index?categoria=EAD');" href="javascript:void(null);">
+                                        EAD
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="Open('Curso/Index?categoria=Extensão Presencial');" href="javascript:void(null);">
+                                        Extensão Presencial
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a onclick="Open('VideoCurso/Index');" href="javascript:void(null);"><i class="fa fa-video-camera fa-fw"></i> Vídeo Curso</a>
+                        </li>
+                        <li>
+                            <a onclick="Open('Livro/Index');" href="javascript:void(null);"><i class="fa fa-book fa-fw"></i> Livro</a>
+                        </li>
+
+                        <li>
+                            <a onclick="Open('Usuario/Index');" href="javascript:void(null);"><i class="fa fa-user fa-fw"></i> Usuários</a>
+                        </li>
+                        <li>
+                            <a href="~/Home/Logout"><i class="fa fa-power-off fa-fw"></i> Logout</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div id="Conteudo"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CMS PUPO SITE</title>
+
+    @Styles.Render("~/Content/CMS/css")
+
+    @Scripts.Render("~/Content/CMS/js")
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">CMS PUPO SITE</h3>
+                    </div>
+                    <div class="panel-body">
+                        @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                        {
+                            <div class="form-group">
+                                @Html.TextBox("Login", "", new { @class = "form-control", @placeholder = "Login" })
+                            </div>
+                            <div class="form-group">
+                                @Html.Password("Senha", "", new { @class = "form-control", @placeholder = "Senha" })
+                            </div>
+                            <div class="checkbox">
+                            </div>
+                            <input type="submit" name="submit" value="Entrar" class="btn btn-lg btn-success btn-block" />
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

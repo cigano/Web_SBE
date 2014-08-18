@@ -1,0 +1,14 @@
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\RepositorioEF.dll.config
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\RepositorioEF.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\RepositorioEF.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\EntityFramework.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\EntityFramework.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Release\RepositorioEF.csprojResolveAssemblyReference.cache
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Release\RepositorioEF.Migrations.NovoBanco.resources
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Release\RepositorioEF.csproj.GenerateResource.Cache
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Release\RepositorioEF.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Release\RepositorioEF.pdb

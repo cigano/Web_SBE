@@ -1,0 +1,13 @@
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\Aplicacao.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\Aplicacao.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\RepositorioEF.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\EntityFramework.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\RepositorioEF.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\EntityFramework.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\obj\Release\Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\obj\Release\Aplicacao.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\obj\Release\Aplicacao.pdb

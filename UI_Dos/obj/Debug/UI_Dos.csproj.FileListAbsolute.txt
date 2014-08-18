@@ -1,0 +1,16 @@
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\UI_Dos.exe.config
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\UI_Dos.exe
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\UI_Dos.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\Aplicacao.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\Dominio.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\EntityFramework.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\RepositorioEF.dll
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\Aplicacao.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\Dominio.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\EntityFramework.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\bin\Debug\RepositorioEF.pdb
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\obj\Debug\UI_Dos.csprojResolveAssemblyReference.cache
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\obj\Debug\UI_Dos.exe
+C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\UI_Dos\obj\Debug\UI_Dos.pdb
