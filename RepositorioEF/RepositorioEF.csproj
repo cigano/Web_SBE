@@ -56,6 +56,10 @@
     <Compile Include="Migrations\201408151824237_NovoBanco.Designer.cs">
       <DependentUpon>201408151824237_NovoBanco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201408182047596_AlteracoesFaltantes.cs" />
+    <Compile Include="Migrations\201408182047596_AlteracoesFaltantes.Designer.cs">
+      <DependentUpon>201408182047596_AlteracoesFaltantes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MyConfiguration.cs" />
     <Compile Include="ParceiroRepositorioEF.cs" />
@@ -76,6 +80,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201408151824237_NovoBanco.resx">
       <DependentUpon>201408151824237_NovoBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201408182047596_AlteracoesFaltantes.resx">
+      <DependentUpon>201408182047596_AlteracoesFaltantes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

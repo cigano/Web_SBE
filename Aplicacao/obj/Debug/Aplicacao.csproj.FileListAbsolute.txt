@@ -11,3 +11,16 @@ C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\obj\Debug\Aplicacao.dll
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\obj\Debug\Aplicacao.pdb
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Aplicacao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\Aplicacao.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\Aplicacao.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\Dominio.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\RepositorioEF.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\EntityFramework.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\Dominio.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\RepositorioEF.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\EntityFramework.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\obj\Debug\Aplicacao.csprojResolveAssemblyReference.cache
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\obj\Debug\Aplicacao.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Aplicacao\obj\Debug\Aplicacao.pdb

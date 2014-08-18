@@ -44,3 +44,47 @@ C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Web_CMS\obj\Debug\Web_CMS.pdb
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Web_CMS\bin\EntityFramework.SqlServer.dll
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Web_CMS\bin\EntityFramework.SqlServer.xml
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\Web_CMS\bin\MvcCheckBoxList.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Web_CMS.dll.config
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Web_CMS.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Web_CMS.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Antlr3.Runtime.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Aplicacao.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Dominio.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\MvcCheckBoxList.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Newtonsoft.Json.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.Formatting.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.WebRequest.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Http.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Http.WebHost.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Mvc.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Optimization.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Razor.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\WebGrease.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\RepositorioEF.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\EntityFramework.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\EntityFramework.SqlServer.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Aplicacao.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Dominio.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\Newtonsoft.Json.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.Formatting.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Net.Http.WebRequest.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Http.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Http.WebHost.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Mvc.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.Razor.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\RepositorioEF.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\EntityFramework.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\bin\EntityFramework.SqlServer.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\obj\Debug\Web_CMS.csprojResolveAssemblyReference.cache
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\obj\Debug\Web_CMS.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\Web_CMS\obj\Debug\Web_CMS.pdb

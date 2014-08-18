@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Dominio;
+
 namespace RepositorioEF.Migrations
 {
     using System;
@@ -14,18 +17,21 @@ namespace RepositorioEF.Migrations
 
         protected override void Seed(RepositorioEF.Contexto context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+            context.Usuario.AddOrUpdate(u => u.Login, 
+                new SBE_ST_Usuario
+                {
+                    Login = "cigano",
+                    Senha = "123",
+                    Ativo = true,
+                    Nome = "Cigano Morrison Mendez",
+                    BannerRotativo = true,
+                    CorpoDocente = true,
+                    Curso = true,
+                    Livro = true,
+                    Parceiro = true,
+                    Usuario = true,
+                    VideoCurso = true
+                });
         }
     }
 }

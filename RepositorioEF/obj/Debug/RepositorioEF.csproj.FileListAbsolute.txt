@@ -12,3 +12,18 @@ C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Debug\Repositorio
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.pdb
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.Migrations.NovoBanco.resources
 C:\Users\diego.zanardo\Desktop\IPUPO\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.csproj.GenerateResource.Cache
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\RepositorioEF.dll.config
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\RepositorioEF.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\RepositorioEF.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\Dominio.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\EntityFramework.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\Dominio.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\EntityFramework.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.csprojResolveAssemblyReference.cache
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.Migrations.NovoBanco.resources
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.csproj.GenerateResource.Cache
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.dll
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.pdb
+C:\Users\Leonel\Documents\Visual Studio 2013\Projects\Web_SBE\RepositorioEF\obj\Debug\RepositorioEF.Migrations.AlteracoesFaltantes.resources
