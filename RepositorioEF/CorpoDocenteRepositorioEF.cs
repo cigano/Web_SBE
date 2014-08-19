@@ -21,11 +21,12 @@ namespace RepositorioEF
             {
                 var corpoDocenteAlterar = contexto.CorpoDocente.First(x => x.Id == entidade.Id);
                 corpoDocenteAlterar.Descricao = entidade.Descricao;
-                corpoDocenteAlterar.Imagem = entidade.Imagem;
+                corpoDocenteAlterar.Imagem = entidade.Imagem ?? "";
                 corpoDocenteAlterar.Nome = entidade.Nome;
             }
             else
             {
+                entidade.Imagem = entidade.Imagem ?? "";
                 contexto.CorpoDocente.Add(entidade);
             }
             contexto.SaveChanges();

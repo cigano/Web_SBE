@@ -27,26 +27,43 @@ namespace RepositorioEF
             {
                 var cursoAlterar = contexto.Curso.SingleOrDefault(x => x.Id == entidade.Id);
                 cursoAlterar.Ativo = true;
-                cursoAlterar.Banner = entidade.Banner; 
+                cursoAlterar.Banner = entidade.Banner ?? ""; 
                 cursoAlterar.Conteudo = entidade.Conteudo;
                 cursoAlterar.Data = entidade.Data;
                 cursoAlterar.Inicio = entidade.Inicio;
                 cursoAlterar.Local = entidade.Local;
-                cursoAlterar.MiniBanner = entidade.MiniBanner;
+                cursoAlterar.MiniBanner = entidade.MiniBanner ?? "";
                 cursoAlterar.SubTitulo = entidade.SubTitulo;
                 cursoAlterar.Titulo = entidade.Titulo;
                 cursoAlterar.Categoria = entidade.Categoria;
 
+                // Entradas Excluídas
+                var coordenacoesOriginais = contexto.Curso.SingleOrDefault(c => c.Id == cursoAlterar.Id).Coordenacao;
 
+                foreach (var coordenacaoPossivelmenteExcluida in coordenacoesOriginais)
+                {
+                    if (cursoAlterar.Coordenacao.All(c => c.Id != coordenacaoPossivelmenteExcluida.Id))
+                    {
+                        contexto.CorpoDocente.Remove(coordenacaoPossivelmenteExcluida);
+                    }
+                }
 
-                
-                cursoAlterar.Coordenacao = coordenacao;
-                
+                // Novas Entradas
+                foreach (var novaCoordenacao in coordenacao)
+                {
+                    if (cursoAlterar.Coordenacao.All(c => c.Id != novaCoordenacao.Id))
+                    {
+                        cursoAlterar.Coordenacao.Add(novaCoordenacao);
+                    }
+                }
+
                 contexto.SaveChanges();
             }
             else
             {
                 entidade.Ativo = true;
+                entidade.MiniBanner = entidade.MiniBanner ?? "";
+                entidade.Banner = entidade.Banner ?? ""; 
                 entidade.Coordenacao = coordenacao;
                 contexto.Curso.Add(entidade);
                 contexto.SaveChanges();

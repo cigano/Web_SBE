@@ -7,7 +7,7 @@ namespace Dominio
     public class SBE_ST_CorpoDocente
     {
         public int Id { get; set; }
-        [Required(ErrorMessage = "Imagem deve ser preenchido!")]
+        // [Required(ErrorMessage = "Imagem deve ser preenchido!")]
         [DisplayName("Imagem")]
         [StringLength(50, ErrorMessage = "Imagem não deve ter mais que 50 caracteres")]
         public string Imagem { get; set; }

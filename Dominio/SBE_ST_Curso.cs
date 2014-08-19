@@ -9,7 +9,7 @@ namespace Dominio
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Mini Banner deve ser preenchido!")]
+        // [Required(ErrorMessage = "Mini Banner deve ser preenchido!")]
         [DisplayName("Mini Banner")]
         [StringLength(50, ErrorMessage = "Mini Banner não deve ter mais que 50 caracteres")]
         public string MiniBanner { get; set; }
@@ -19,7 +19,7 @@ namespace Dominio
         [StringLength(25, ErrorMessage = "Categoria não deve ter mais que 25 caracteres")]
         public string Categoria { get; set; }
 
-        [Required(ErrorMessage = "Banner deve ser preenchido!")]
+        // [Required(ErrorMessage = "Banner deve ser preenchido!")]
         [DisplayName("Banner")]
         [StringLength(50, ErrorMessage = "Mini Banner não deve ter mais que 50 caracteres")]
         public string Banner { get; set; }
@@ -58,7 +58,5 @@ namespace Dominio
         public bool Ativo { get; set; }
 
         public virtual ICollection<SBE_ST_CorpoDocente> Coordenacao { get; set; }
-        
-
     }
 }
