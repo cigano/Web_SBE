@@ -41,6 +41,7 @@ namespace Web_CMS.Controllers
         [AcceptVerbs(HttpVerbs.Post)]
         public JsonResult UploadArquivo()
         {
+            return Json(new { Nome = "teste" }, JsonRequestBehavior.AllowGet);
             HttpPostedFileBase file = Request.Files[0] as HttpPostedFileBase;
             if (file != null && file.ContentLength > 0)
             {
